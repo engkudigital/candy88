@@ -25,7 +25,11 @@ const CounterText = styled.span``; // add your styles here
 
 const MintContainer = styled.div``; // add your styles here
 
-const MintButton = styled(Button)``; // add your styles here
+const MintButton = styled(Button)`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+  `;
 
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
