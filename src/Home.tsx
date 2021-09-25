@@ -23,7 +23,11 @@ const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
 
-const MintContainer = styled.div``; // add your styles here
+const MintContainer = styled.div`
+font-size: 1.5em;
+  text-align: right;
+  color: palevioletred;
+  `;
 
 const MintButton = styled(Button)`
   font-size: 1.5em;
