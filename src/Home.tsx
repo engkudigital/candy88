@@ -23,12 +23,16 @@ const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
 
-const image = { uri: "https://cdn.motor1.com/images/mgl/4JyZA/s1/lamborghini-aventador-lp-780-4-ultimae.webp" };
+const myelement = (
+  <ul>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Cherries</li>
+  </ul>
+);
 
 
 const MintContainer = styled.div`
-border: 1px solid #000;
-background-image: url(${image});
 width: 2000px;
 height: 2000px;
   `;
