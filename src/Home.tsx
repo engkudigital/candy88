@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
+import img from '.img/images.jpeg';
 import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
@@ -24,15 +25,16 @@ const ConnectButton = styled(WalletDialogButton)``;
 const CounterText = styled.span``; // add your styles here
 
 const MintContainer = styled.div`
-font-size: 1.5em;
-  text-align: right;
-  color: palevioletred;
+border: 1px solid #000;
+background-image: url(${img});
+width: 2000px;
+height: 2000px;
   `;
 
 const MintButton = styled(Button)`
   font-size: 1.5em;
   text-align: center;
-  color: palevioletred;
+  color: #0000;
   `;
 
 export interface HomeProps {
