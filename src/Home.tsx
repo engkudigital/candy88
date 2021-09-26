@@ -23,13 +23,10 @@ const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
 
-const myelement = (
-  <ul>
-    <li>Apples</li>
-    <li>Bananas</li>
-    <li>Cherries</li>
-  </ul>
-);
+const myelement = <h1>I Love JSX!</h1>;
+
+ReactDOM.render(myelement, document.getElementById('root'));
+
 
 
 const MintContainer = styled.div`
