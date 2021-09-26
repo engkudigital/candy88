@@ -23,9 +23,16 @@ const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
 
-const myelement = <h1>I Love JSX!</h1>;
-
-ReactDOM.render(myelement, document.getElementById('root'));
+class Content extends React.Component {
+   render() {
+      return (
+         <div>
+            <h2>Content</h2>
+            <p>The content text!!!</p>
+         </div>
+      );
+   }
+}
 
 
 
