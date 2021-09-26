@@ -23,19 +23,6 @@ const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
 
-class Content extends React.Component {
-   render() {
-      return (
-         <div>
-            <h2>Content</h2>
-            <p>The content text!!!</p>
-         </div>
-      );
-   }
-}
-
-
-
 const MintContainer = styled.div`
 width: 2000px;
 height: 2000px;
