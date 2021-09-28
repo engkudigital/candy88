@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
+import App from './App';
 
 import * as anchor from "@project-serum/anchor";
 
@@ -18,6 +19,10 @@ import {
   mintOneToken,
   shortenAddress,
 } from "./candy-machine";
+
+const App = (
+  <h1>hello</h1>
+  );
 
 
   
