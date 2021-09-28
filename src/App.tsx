@@ -83,6 +83,7 @@ const App = () => {
   );
 
   return (
+    <h1>hello</h1>
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect>
