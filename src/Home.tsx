@@ -19,9 +19,7 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
-const App = (
-  <h1>hello</h1>
-  );
+
   
 
 const ConnectButton = styled(WalletDialogButton)``;
