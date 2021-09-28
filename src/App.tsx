@@ -86,6 +86,7 @@ const App = () => {
     <>
        <div>Element 1</div>
        <div>Element 1</div>
+       <h1>CLICK TO MINT</h1>
 
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
