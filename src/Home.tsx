@@ -19,18 +19,10 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
-const App() {
-  return (
-      <div>
-        {/* Hello world */}
-        <div className="awesome" style={{border: '1px solid red'}}>
-          <label htmlFor="name">Enter your name: </label>
-          <input type="text" id="name" />
-        </div>
-        <p>Enter your HTML here</p>
-      </div>
-    );
-}
+const App = (
+  <h1>hello</h1>
+  );
+  
 
 const ConnectButton = styled(WalletDialogButton)``;
 
