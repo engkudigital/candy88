@@ -23,7 +23,11 @@ import {
 
   
 
-const ConnectButton = styled(WalletDialogButton)``;
+const ConnectButton = styled(WalletDialogButton)`
+margin: 24px 0;
+width: 150px;
+
+`;
 
 const CounterText = styled.span``; // add your styles here
 
