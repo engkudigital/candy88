@@ -24,16 +24,26 @@ import {
   
 
 const ConnectButton = styled(WalletDialogButton)`
-margin: 24px 0;
-width: 150px;
+max-width: 700px;
+  margin: auto;
+  
+  height: 50vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
 
 `;
 
 const CounterText = styled.span``; // add your styles here
 
 const MintContainer = styled.div`
-width: 2000px;
-height: 2000px;
+max-width: 700px;
+  margin: auto;
+  
+  height: 50vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
   `;
 
 const MintButton = styled(Button)`
