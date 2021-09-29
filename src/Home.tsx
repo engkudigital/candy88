@@ -35,7 +35,7 @@ height: 2000px;
 const MintButton = styled(Button)`
   font-size: 1.5em;
   text-align: center;
-  color: #0000;
+  color: #ffff;
   `;
 
 export interface HomeProps {
