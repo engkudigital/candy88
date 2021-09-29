@@ -84,9 +84,8 @@ const App = () => {
 
   return (
     <>
-       <div>Element 1</div>
-       <div>Element 1</div>
-       <h1>CLICK TO MINT</h1>
+       
+       <h1>LET'S MINT SOME NFT</h1>
 
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
