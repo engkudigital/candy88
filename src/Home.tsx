@@ -24,13 +24,16 @@ import {
   
 
 const ConnectButton = styled(WalletDialogButton)`
-max-width: 700px;
-  margin: auto;
+
+width: 19%;
+  margin: 1px;
   
-  height: 50vh;
+  height: 10vh;
   display: flex;
   align-items: center;
+  text-align: center;
 justify-content: center;
+
 
 `;
 

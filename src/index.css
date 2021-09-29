@@ -6,9 +6,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2021/04/NFT.jpeg-900x510.jpg");
-  opacity: 0.5;
-  background: #fff;
+  /* background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2021/04/NFT.jpeg-900x510.jpg");
+  */
+  
+  background-image: url("https://btcmanager.com/wp-content/uploads/2021/03/CryptoHeroes-Combine-NFT-with-DeFi-Yield-Farming.jpg");
+
   background-size: cover !important;
   -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -18,6 +20,15 @@ body {
    overflow: hidden;
   background-repeat: no-repeat;
   
+}
+
+h1 {
+  color: #fff03;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
 }
 
 
