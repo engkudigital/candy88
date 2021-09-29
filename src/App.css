@@ -1,16 +1,12 @@
 .App {
-  position: absolute;
-   bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
-   color: #fff;
-   display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
+  max-width: 700px;
+  margin: auto;
+  
+  height: 50vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+   
 
   
   
