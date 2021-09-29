@@ -37,7 +37,16 @@ justify-content: center;
 
 `;
 
-const CounterText = styled.span``; // add your styles here
+const CounterText = styled.span`
+width: 19%;
+  margin: 1px;
+  
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+justify-content: center;
+`; // add your styles here
 
 const MintContainer = styled.div`
 max-width: 700px;
@@ -50,7 +59,7 @@ justify-content: center;
   `;
 
 const MintButton = styled(Button)`
-  font-size: 1.5em;
+  font-size: 5em;
   text-align: center;
   color: #ffff;
   `;
