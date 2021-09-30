@@ -25,12 +25,11 @@ import {
 
 const ConnectButton = styled(WalletDialogButton)`
 
-width: 19%;
-  margin: 1px;
+  margin-top: 100px;
+  padding: 5em;
   
-  height: 10vh;
+  height: 9vh;
   display: flex;
-  align-items: center;
   text-align: center;
 justify-content: center;
 
@@ -49,13 +48,12 @@ justify-content: center;
 `; // add your styles here
 
 const MintContainer = styled.div`
-max-width: 700px;
-  margin: auto;
-  
-  height: 50vh;
-  display: flex;
-  align-items: center;
+
+  text-align: center;
 justify-content: center;
+margin: 2.5em 0.3em 0.3em 0;
+
+
   `;
 
 const MintButton = styled(Button)`
@@ -194,7 +192,7 @@ const Home = (props: HomeProps) => {
 
       <MintContainer>
         {!wallet ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
+          <ConnectButton>Connect Your Wallet</ConnectButton>
         ) : (
           <MintButton
             disabled={isSoldOut || isMinting || !isActive}
